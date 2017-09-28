@@ -1,0 +1,11 @@
+commit ed64c0994eda4bfe3bb2c7e886ba825f41bfffdb
+Author: StegerI <stegerivan95@gmail.com>
+Date:   Thu Sep 28 15:12:12 2017 -0300
+
+    Se modifico la documentacion
+
+commit 483a08d59e5a5eb493cc8ec2698cd55879f414c4
+Author: StegerI <stegerivan95@gmail.com>
+Date:   Thu Sep 28 15:01:11 2017 -0300
+
+    Primer Commit, portada, menu y novedades terminados en html/css/js(falta rosponsive)
