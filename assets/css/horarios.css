@@ -6,6 +6,17 @@
     overflow-x:auto;
 }
 
+.horario{
+    position: relative;
+    top: 20vh;
+    left: 0vw;
+    width: 70vw;
+    height: 40vh;
+    font-size: 40px;
+    margin: auto;
+    border-radius: 25px;
+}
+
 table, th, td, tr{
     box-sizing: border-box;
     border: 10px solid black;
@@ -15,16 +26,7 @@ table, th, td, tr{
 th:hover ,td:hover{
     background-color: #C44F4F;
 }
-.horario{
-    position: relative;
-    top: 40vh;
-    left: 0vw;
-    width: 70vw;
-    height: 40vh;
-    font-size: 60px;
-    margin: auto;
-    border-radius: 25px;
-}
+
 .container-hs:before{
     content: '';
     position: absolute;
