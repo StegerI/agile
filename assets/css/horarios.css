@@ -3,8 +3,28 @@
     height: 90vh;
     background:linear-gradient(90deg, #F00222, #75489F);
     position: relative;
+    overflow-x:auto;
 }
 
+table, th, td, tr{
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-spacing: 0;
+    text-align: center;
+}
+th:hover ,td:hover{
+    background-color: #C44F4F;
+}
+.horario{
+    position: relative;
+    top: 40vh;
+    left: 0vw;
+    width: 70vw;
+    height: 40vh;
+    font-size: 60px;
+    margin: auto;
+    border-radius: 25px;
+}
 .container-hs:before{
     content: '';
     position: absolute;
