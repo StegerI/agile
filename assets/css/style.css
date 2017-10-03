@@ -55,7 +55,7 @@ body{
   transition: 1s;
 }
 
-#twtUp:hover{
+ #twtUp:hover{
   width: 350px;
   background-color:black; 
 }
