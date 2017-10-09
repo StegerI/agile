@@ -43,9 +43,21 @@ th:hover ,td:hover{
 .container-hs h1{
     position: absolute;
     z-index: 100;
-    writing-mode: sideways-lr;
-    float: left;
-    margin-right: 100px;
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    margin-top:0;
+    left: -50px;
     font-size: 60px;
-    top: 11vh;
+    top: 200px;
 }
